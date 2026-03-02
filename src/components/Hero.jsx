@@ -3,6 +3,16 @@ import styles from './Hero.module.css';
 import { Github, Linkedin, Facebook, Youtube } from 'lucide-react';
 // add image for hero section
 import heroImage from '../../images/121.png';
+import heroImage from "../images/hero.png";
+import HeroSection from "./HeroSection";
+
+export default function HeroSection() {
+  return (
+    <div className="hero">
+      <img src={heroImage} alt="Hero" />
+    </div>
+  );
+}
 
 const Hero = () => {
   return (
@@ -50,4 +60,3 @@ const Hero = () => {
   );
 };
 
-export default Hero;
