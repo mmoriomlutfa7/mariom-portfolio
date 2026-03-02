@@ -1,0 +1,31 @@
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom Keyframes */
+@keyframes fade-in {
+  from { 
+    opacity: 0; 
+    transform: translateY(10px); 
+  }
+  to { 
+    opacity: 1; 
+    transform: translateY(0); 
+  }
+}
+
+/* Utility Class */
+.animate-fade-in {
+  animation: fade-in 0.8s ease-out forwards;
+}
+
+/* Custom scrollbar for the sidebar */
+aside::-webkit-scrollbar {
+  width: 4px;
+}
+
+aside::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 10px;
+}
