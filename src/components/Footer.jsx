@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 import styles from './Footer.module.css';
 
 const UpArrow = () => (
@@ -21,4 +21,14 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Footer; 
+*/
+import React from 'react'
+import styles from './Footer.module.css';
+export default function Footer(){
+  return (
+    <footer className="Footer">
+      <div>© {new Date().getFullYear()} Momina Mariom Lutfa — Built with React + Vite</div>
+    </footer>
+  )
+}

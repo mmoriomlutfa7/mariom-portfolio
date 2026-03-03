@@ -128,7 +128,9 @@ body {
 .project-desc { color:var(--muted); font-size:0.95rem; }
 
 /* Footer */
-.footer { padding:32px 0; border-top: 1px solid rgba(255,255,255,0.02); color:var(--muted); }
+/*.footer { padding:32px 0; border-top: 1px solid rgba(255,255,255,0.02); color:var(--muted); } */
+.footer{padding:32px 0;color:var(--muted);font-size:13px;justify-content:center;text-align:center;position:relative;z-index:1;background:rgba(255,255,255,0.5)}
+
 
 /* Utilities */
 .center { display:flex; align-items:center; justify-content:center; }
