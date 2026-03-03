@@ -24,11 +24,15 @@ const Footer = () => {
 export default Footer; 
 */
 import React from 'react'
-import styles from './Footer.module.css';
+
 export default function Footer(){
   return (
-    <footer className="Footer">
-      <div>© {new Date().getFullYear()} Momina Mariom Lutfa — Built with React + Vite</div>
+    <footer className="Footer" style={{ textAlign: "center", width: "100%",background:"rgba(255,255,255,0.5)",}}n>
+      
+      <div>
+        ©{new Date().getFullYear()}
+         Momina Mariom Lutfa — Built with React + Vite
+         </div>
     </footer>
   )
 }
