@@ -20,29 +20,34 @@ function App() {
         const el = document.getElementById(section);
         if (el) {
           const rect = el.getBoundingClientRect();
+          // Improved logic for identifying the section in view
           return rect.top >= -300 && rect.top <= 300;
         }
         return false;
       });
       if (current) setActiveSection(current);
     };
+    
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
   return (
     <div className="bg-[#0f172a] text-slate-300 min-h-screen flex">
+      {/* Fixed Sidebar/Navbar */}
       <Navbar activeSection={activeSection} />
       
-      <main className="flex-grow lg:ml-64 px-6 md:px-16">
+      {/* Main Content Area */}
+      <main className="flex-grow lg:ml-64 px-6 md:px-16 flex flex-col">
         <Hero />
         <About />
         <Education />
         <Skills />
         <Certificates />
         <Projects />
-        
         <Contact />
+        
+        {/* Footer added at the very end */}
         <Footer />
       </main>
     </div>

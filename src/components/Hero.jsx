@@ -1,18 +1,9 @@
 import React from 'react';
 import styles from './Hero.module.css';
 import { Github, Linkedin, Facebook, Youtube } from 'lucide-react';
-// add image for hero section
-import heroImage from '../../images/121.png';
-import heroImage from "../images/hero.png";
-import HeroSection from "./HeroSection";
 
-export default function HeroSection() {
-  return (
-    <div className="hero">
-      <img src={heroImage} alt="Hero" />
-    </div>
-  );
-}
+// Importing the image from your assets folder
+import heroImage from '../assets/121.png';
 
 const Hero = () => {
   return (
@@ -21,7 +12,7 @@ const Hero = () => {
         <div className={styles.content}>
           <h1 className={styles.name}>Momina Mariom Lutfa</h1>
           
-          <h2 className={styles.title}> Undergraduate Student|   Computer Science|Frontend Developer </h2>
+          <h2 className={styles.title}>Undergraduate Student | Computer Science | Frontend Developer</h2>
           
           <div className={styles.summary}>
             <p>Crafting seamless digital experiences through clean code and intuitive user interfaces.</p>
@@ -31,6 +22,7 @@ const Hero = () => {
             <a href="#projects" className={styles.btnPrimary}>View My Work</a>
             <a href="#contact" className={styles.btnSecondary}>Get in Touch</a>
           </div>
+          
           <div className={styles.socialRow}>
             <a href="https://github.com/" target="_blank" rel="noreferrer" aria-label="GitHub" className={styles.socialBtn} title="GitHub">
               <Github size={25} />
@@ -48,15 +40,15 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* image side – replace placeholder with your own <img> or background */}
       <div className={styles.imageFrame}>
-  <img
-    src="/images/121.png"
-    alt="Hero graphic"
-    className={styles.headshot}
-  />
-</div>
+        <img
+          src={heroImage}
+          alt="Momina Mariom Lutfa"
+          className={styles.headshot}
+        />
+      </div>
     </section>
   );
 };
 
+export default Hero;
