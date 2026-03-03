@@ -6,7 +6,7 @@ const EducationItem = ({ degree, institution, year, icon }) => (
     <div className={styles.dotContainer}>
       <div className={styles.dot}>{icon}</div>
     </div>
-    <div className={styles.content}>
+    <div className={styles.content}>Metropolitan University
       <h3 className={styles.degree}>{degree}</h3>
       <p className={styles.institution}>{institution}</p>
       <p className={styles.year}>{year}</p>
@@ -18,7 +18,7 @@ const Education = () => {
   const educationData = [
     {
       degree: 'B.Sc. in Computer Science & Engineering',
-      institution: '[Metropolitan University,sylhet,bangladesh]',
+      institution: '[sylhet,bangladesh]',
       year: '2023 – Present',
       icon: '🎓'
     },

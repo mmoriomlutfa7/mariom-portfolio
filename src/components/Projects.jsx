@@ -33,10 +33,7 @@ const Projects = () => {
                 ))}
               </div>
               <p className={styles.description}>{project.description}</p>
-              <a href="#" className={styles.viewLink}>
-                View Project
-                <ExternalLink size={14} />
-              </a>
+              
             </article>
           ))}
         </div>
