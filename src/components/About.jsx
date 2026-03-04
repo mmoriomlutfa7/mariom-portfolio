@@ -9,10 +9,10 @@ const About = () => {
 
         <div className={styles.content}>
           <p>
-            I am a Computer Science student from Bangladesh focused on building practical, user-centered web applications. I am currently expanding my skills in full-stack development while strengthening my foundation in programming and problem-solving. I approach learning through consistent project-building and continuous improvement, with the long-term goal of developing scalable systems that can create meaningful impact.
+            I am a Computer Science student from Bangladesh dedicated to crafting performant, user-centered web interfaces. While I have a strong foundation in full-stack principles, my passion lies in Frontend Development—transforming complex problems into intuitive, accessible digital experiences.
           </p>
           <p>
-            I am a MERN Stack Enthusiast exploring how technology can solve real problems and scale beyond borders. My approach combines a user-first design mindset with pragmatic development. I prioritize accessibility, performance, and maintainable code.
+            I believe that great code isn’t just about making things work; it’s about making them work for everyone. My approach combines a user-first design mindset with pragmatic development, prioritizing clean architecture and maintainable code. Whether I’m optimizing load times or refining a UI component, my goal is always to build scalable systems that create a meaningful impact.
           </p>
         </div>
       </div>

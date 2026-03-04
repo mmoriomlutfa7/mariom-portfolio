@@ -81,14 +81,14 @@
 
 .institution {
   font-family: 'Poppins', Inter, sans-serif;
-  font-size: 1rem;
+  font-size: 5 rem;
   color: #9B86BD;
   margin: 0 0 4px 0;
 }
 
 .year {
   font-family: 'Poppins', Inter, sans-serif;
-  font-size: 2 rem;
+  font-size: 5 rem;
   color: #555555;
   margin: 0;
   font-weight: 600;
