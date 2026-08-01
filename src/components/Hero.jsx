@@ -12,7 +12,7 @@ const Hero = () => {
         <div className={styles.content}>
           <h1 className={styles.name}>Momina Mariom Lutfa</h1>
           
-          <h2 className={styles.title}>Undergraduate Student | Computer Science | Frontend Developer</h2>
+          <h2 className={styles.title}>Computer Science|Undergraduate Student|Frontend Developer</h2>
           
           <div className={styles.summary}>
             <p>Crafting seamless digital experiences through clean code and intuitive user interfaces.</p>
